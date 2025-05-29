@@ -7,6 +7,7 @@ import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import Travel from "../pages/travel/Travel";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 
@@ -52,6 +53,10 @@ export default class Main extends Component {
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/travel"
+            render={(props) => <Travel {...props} theme={this.props.theme} />}
           />
 
           {settings.isSplash && (

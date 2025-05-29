@@ -1,11 +1,25 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "R_kgDOM4fAYg",
+      "name": "transformers",
+      "createdAt": "2024-09-28T13:31:37Z",
+      "url": "https://github.com/devilunraveled/transformers",
+      "description": "Implementation of Transformers module in python, using only Linear Layers as support from PyTorch. Implemented as part of Course Work for he couse Advanced Natural Language Processing @ IIIT H.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOM8Rpsw",
+      "name": "Speculative-Decoding",
+      "createdAt": "2024-10-06T15:13:33Z",
+      "url": "https://github.com/devilunraveled/Speculative-Decoding",
+      "description": "The implementation and analysis of Speculative Decoding, implemented as part of Project work for the course CS7.501 Advanced Natural Language Processing",
       "isFork": false,
       "languages": [
         {
@@ -15,19 +29,33 @@
         {
           "name": "Shell",
           "iconifyClass": "simple-icons:shell"
-        },
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOKfamaw",
+      "name": "ResearchSynth",
+      "createdAt": "2023-10-12T11:51:39Z",
+      "url": "https://github.com/devilunraveled/ResearchSynth",
+      "description": "A document summariser specific for Abstract Generation for Scientific Papers.",
+      "isFork": false,
+      "languages": [
         {
           "name": "Jupyter Notebook",
           "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "R_kgDOKeeLMw",
+      "name": "ThePacManPlayer",
+      "createdAt": "2023-10-10T13:35:26Z",
+      "url": "https://github.com/MultiAgentSystems/ThePacManPlayer",
+      "description": "Training Behaviour trees for playing the Pac-Man game using Genetic programming with hybrid constraints.",
       "isFork": false,
       "languages": [
         {
@@ -37,88 +65,27 @@
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "R_kgDOKa0UVg",
+      "name": "TheNegotiator",
+      "createdAt": "2023-10-02T06:58:43Z",
+      "url": "https://github.com/MultiAgentSystems/TheNegotiator",
+      "description": "Automated Negotiation agent based on SAOP protocol. Opponent Model built using Linear Regression with non-linear bid scaling.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "Java",
+          "iconifyClass": "logos-java"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "id": "R_kgDOIHUlCA",
+      "name": "xv7-riscv",
+      "createdAt": "2022-10-02T18:50:28Z",
+      "url": "https://github.com/XV7-RISC-V/xv7-riscv",
+      "description": "Xv6 for RISC-V with added features",
       "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        }
-      ]
+      "languages": []
     }
   ]
 }

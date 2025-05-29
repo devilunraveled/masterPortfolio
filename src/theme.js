@@ -11,6 +11,10 @@ export const blueTheme = {
   jacketColor: "#0A2472",
   headerColor: "#0E6BA877",
   splashBg: "#001C55",
+  mapBackground: "#EDF9FE",
+  mapStroke: "#001C55",
+  visitedLocation: "#0E6BA8",
+  plannedLocation: "#A6E1FA",
 };
 
 export const brownTheme = {
@@ -25,6 +29,10 @@ export const brownTheme = {
   jacketColor: "#FB6376",
   headerColor: "#E29F9577",
   splashBg: "#5D2A42",
+  mapBackground: "#FFFEFD",
+  mapStroke: "#5D2A42",
+  visitedLocation: "#E29F95",
+  plannedLocation: "#FB6376",
 };
 
 export const purpleTheme = {
@@ -39,6 +47,10 @@ export const purpleTheme = {
   jacketColor: "#5E548E",
   headerColor: "#BE95C477",
   splashBg: "#231942",
+  mapBackground: "#F8EFF4",
+  mapStroke: "#231942",
+  visitedLocation: "#BE95C4",
+  plannedLocation: "#5E548E",
 };
 
 export const greenTheme = {
@@ -53,6 +65,10 @@ export const greenTheme = {
   jacketColor: "#007f5f",
   headerColor: "#55a63077",
   splashBg: "#003F2F",
+  mapBackground: "#FFFFEB",
+  mapStroke: "#003F2F",
+  visitedLocation: "#55a630",
+  plannedLocation: "#007f5f",
 };
 
 export const redTheme = {
@@ -67,6 +83,10 @@ export const redTheme = {
   jacketColor: "#9d0208",
   headerColor: "#dc2f0277",
   splashBg: "#6a040f",
+  mapBackground: "#FFF8E6",
+  mapStroke: "#6a040f",
+  visitedLocation: "#dc2f02",
+  plannedLocation: "#9d0208",
 };
 
 export const blackTheme = {
@@ -81,6 +101,10 @@ export const blackTheme = {
   jacketColor: "#8d99ae",
   headerColor: "#fca31177",
   splashBg: "#14213d",
+  mapBackground: "#E5E5E5",
+  mapStroke: "#14213d",
+  visitedLocation: "#fca311",
+  plannedLocation: "#000000",
 };
 
 export const pinkTheme = {
@@ -95,6 +119,10 @@ export const pinkTheme = {
   jacketColor: "#8d99ae",
   headerColor: "#ef476f77",
   splashBg: "#620E34",
+  mapBackground: "#FEE9F2",
+  mapStroke: "#620E34",
+  visitedLocation: "#ef476f",
+  plannedLocation: "#31071A",
 };
 
 export const violetTheme = {
@@ -109,6 +137,10 @@ export const violetTheme = {
   jacketColor: "#763D8B",
   headerColor: "#9b5de577",
   splashBg: "#430A58",
+  mapBackground: "#F4EEFC",
+  mapStroke: "#430A58",
+  visitedLocation: "#9b5de5",
+  plannedLocation: "#21052C",
 };
 
 export const tealTheme = {
@@ -123,6 +155,10 @@ export const tealTheme = {
   jacketColor: "#56a3a6",
   headerColor: "#07beb877",
   splashBg: "#084c61",
+  mapBackground: "#E6FAF5",
+  mapStroke: "#084c61",
+  visitedLocation: "#07beb8",
+  plannedLocation: "#031E26",
 };
 
 export const orangeTheme = {
@@ -137,6 +173,10 @@ export const orangeTheme = {
   jacketColor: "#d7263d",
   headerColor: "#FF6B3577",
   splashBg: "#99401F",
+  mapBackground: "#FFF0EA",
+  mapStroke: "#99401F",
+  visitedLocation: "#FF6B35",
+  plannedLocation: "#33150A",
 };
 
 export const yellowTheme = {
@@ -151,6 +191,10 @@ export const yellowTheme = {
   jacketColor: "#4e342e",
   headerColor: "#FFEA3D",
   splashBg: "#5f4339",
+  mapBackground: "#FFD95D",
+  mapStroke: "#5f4339",
+  visitedLocation: "#ffea3d",
+  plannedLocation: "#8d6e63",
 };
 
 export const materialDarkTheme = {
@@ -165,6 +209,10 @@ export const materialDarkTheme = {
   jacketColor: "#8eacbb",
   headerColor: "#34515e",
   splashBg: "#4f5b62",
+  mapBackground: "#263238",
+  mapStroke: "#aeaeae",
+  visitedLocation: "#607d8b",
+  plannedLocation: "#4f5b62",
 };
 
 export const materialLightTheme = {
@@ -179,6 +227,10 @@ export const materialLightTheme = {
   jacketColor: "#E1E2E1",
   headerColor: "#E1E2E1",
   splashBg: "#7d56c2",
+  mapBackground: "#ffffff",
+  mapStroke: "#4c2b91",
+  visitedLocation: "#2b1958",
+  plannedLocation: "#7d56c2",
 };
 
 export const materialTealTheme = {
@@ -193,6 +245,10 @@ export const materialTealTheme = {
   jacketColor: "#E1E2E1",
   headerColor: "#E1E2E1",
   splashBg: "#05505E",
+  mapBackground: "#ffffff",
+  mapStroke: "#05505E",
+  visitedLocation: "#0a343c",
+  plannedLocation: "#05505E",
 };
 
 export const chosenTheme = blueTheme;

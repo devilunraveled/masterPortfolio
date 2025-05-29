@@ -1,0 +1,200 @@
+.travel-main {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.basic-travel {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.travel-heading-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.travel-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+  margin-top: 50px;
+}
+
+.travel-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+}
+
+.travel-map-div {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  flex: 1;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.rsm-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.travel-legend {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.controls {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.controls button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.controls button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .travel-heading-text {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .travel-subtitle {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .travel-map-div {
+    width: 95%;
+    padding: 10px;
+    margin: 15px auto;
+    height: 400px;
+  }
+
+  .controls {
+    right: 10px;
+    top: 10px;
+  }
+
+  .controls button {
+    padding: 3px;
+  }
+
+  .controls button svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.marker {
+  cursor: pointer;
+  fill: currentColor;
+  transition: transform 0.2s;
+}
+
+.marker:hover {
+  transform: scale(1.2);
+}
+
+.marker-tooltip {
+  position: absolute;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  pointer-events: none;
+  z-index: 1000;
+  min-width: 150px;
+  color: #333;
+  transform: translate(-50%, -100%);
+  margin-top: -10px;
+}
+
+.marker-tooltip::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+}
+
+.marker-tooltip h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.marker-tooltip p {
+  margin: 5px 0;
+  font-size: 13px;
+  color: #666;
+}
+
+.marker-tooltip .visit-date {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+  font-style: italic;
+}
