@@ -38,29 +38,45 @@
   text-align: center;
 }
 
-.travel-map-div {
-  position: relative;
-  width: 90%;
-  max-width: 1200px;
-  margin: 30px auto;
+.travel-content {
+  display: flex;
+  gap: 20px;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  height: 600px;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 80vh;
+}
+
+.maps-container {
+  flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 30px;
+  width: 100%;
+}
+
+.travel-map-div {
+  position: relative;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.map-title {
+  margin: 0 0 15px;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .map-container {
-  flex: 1;
+  height: 600px;
   position: relative;
-  width: 100%;
-  height: 100%;
-}
-
-.rsm-svg {
-  width: 100%;
-  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .travel-legend {
@@ -85,27 +101,40 @@
 
 .controls {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 10px;
+  top: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+  z-index: 1000;
 }
 
 .controls button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 
 .controls button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background: #f5f5f5;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.controls button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -120,25 +149,19 @@
     text-align: center;
   }
 
-  .travel-map-div {
-    width: 95%;
+  .travel-content {
     padding: 10px;
-    margin: 15px auto;
-    height: 400px;
   }
 
   .controls {
-    right: 10px;
-    top: 10px;
+    right: 5px;
+    top: 5px;
   }
 
   .controls button {
-    padding: 3px;
-  }
-
-  .controls button svg {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
+    font-size: 16px;
   }
 }
 
@@ -146,10 +169,11 @@
   cursor: pointer;
   fill: currentColor;
   transition: transform 0.2s;
+  pointer-events: all;
 }
 
 .marker:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .marker-tooltip {
@@ -197,4 +221,13 @@
   color: #888;
   margin-top: 5px;
   font-style: italic;
+}
+
+/* Add specific styles for SVG elements */
+.map-container svg {
+  pointer-events: all;
+}
+
+.map-container g {
+  pointer-events: all;
 }

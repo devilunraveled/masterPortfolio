@@ -8,6 +8,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
+    "generate-photo-index": "node scripts/generatePhotoIndex.js",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"
   },
