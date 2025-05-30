@@ -8,10 +8,6 @@ const PhotoGallery = ({ location, onClose }) => {
 
   useEffect(() => {
     if (location) {
-      const photoDir = `/photos/${location.photoDir}`;
-      console.log("[PhotoGallery] Loading photos for:", location);
-
-      // Fetch the photo index
       fetch("/photos/index.json")
         .then((response) => response.json())
         .then((photoIndex) => {

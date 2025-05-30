@@ -89,6 +89,10 @@ const socialMediaLinks = {
 
 You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
 
+Another feature added is the Travel page, where you can mark places you have been and places you have planned. To do this, you need to fill the travel details in `portfolio.js`, moreover, you can add images by populating the folder in `public/photos/<location-photoDir>/`.
+
+After adding the images, you need to create an index of photos so that they are all loaded beforehand for ease of use later. To do this, simply run `npm run generate-photo-index` **after** moving all the photos locally to the folder. I am planning to add access to photos directly using Google Photos
+
 ### How to change the icons on homepage under what i do section?
 
 1. This section pulls data from `skills` in portfolio.js file.
@@ -274,3 +278,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 - Some Design and Implementation Ideas are taken from [Saad Pasta's Portfolio Project](https://github.com/saadpasta/developerFolio).
 - The Logo of MasterPortfolio is inspired from [prettier-logo](https://github.com/prettier/prettier-logo) for [prettier](https://github.com/prettier/prettier) designed by @ianstormtaylor.
+
+# What's Next ?
+
+- Adding support to use photos from structured Google Drive or via Google Photo Albums.
+- Adding support for taking suggestions for places to visit.
+- Adding a page for posting / writing blogs.

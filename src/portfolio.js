@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -717,6 +717,88 @@ const contactPageData = {
   },
 };
 
+const travelData = {
+  locations: [
+    {
+      name: "Port Blair",
+      latitude: "11.6234",
+      longitude: "92.7265",
+      visitDate: "2014-05-29",
+      status: "visited",
+      description:
+        "I have visited Andaman and Nicobar Islands three times, is is one of the most beautiful places in India, each time I have gone their, the excitement, the adventure, its all enthralling.",
+      type: "domestic",
+      photoDir: "andaman_2014",
+    },
+    {
+      name: "Leh",
+      latitude: "34.1526",
+      longitude: "77.5771",
+      visitDate: "2023-07-01",
+      status: "visited",
+      description:
+        "Having visited Leh once with my family, that too in not too peak tourist season, allowed me to experience the sheer beauty of the place, I travelled to multiple places in the region, including Zanskar, Pangong Lake and Khardungla - the second highest motorable road in the world. I have visted it in July, when the snow isn't everywhere, and I would love to do it again when I can enjoy the snow",
+      type: "domestic",
+      photoDir: "leh_2023",
+    },
+    {
+      name: "Gokarna",
+      latitude: "14.5479",
+      longitude: "74.3188",
+      visitDate: "2025-02-17",
+      status: "visited",
+      description:
+        "Remember the college trip with your friends, that becomes the baseline for any future trip ? That is what Gokarna and Dandelli are to me. From the stay, to the beaches, to the treks, to the food, to the adventure, to the laughs, everything was perfect, down to the last minute detail.",
+      type: "domestic",
+      photoDir: "gokarna_2025",
+    },
+    {
+      name: "Dandelli",
+      latitude: "15.2361",
+      longitude: "74.6173",
+      visitDate: "2025-02-15",
+      status: "visited",
+      description:
+        "On the trip to Gokarna, I had the opportunity to visit Dandelli, a beautiful place with a serene atmosphere.It place is known for rafting, kayaking and other water activities in River Kali, and we were lucky to have a great guide who made the experience even more memorable.",
+      type: "domestic",
+      photoDir: "dandeli_2025",
+    },
+    {
+      name: "Murdeshwar",
+      latitude: "14.0940",
+      longitude: "74.4899",
+      visitDate: "2025-02-16",
+      status: "visited",
+      description:
+        "Murdeshwar is a beautiful place with a serene atmosphere. The place is known for the main attraction - Shri Mahabaleshwar Temple. The temple is known for its architecture and the gorgeous statue of Lord Shiva.",
+      type: "domestic",
+      photoDir: "murdeshwar_2025",
+    },
+    {
+      name: "Honnavar",
+      latitude: "14.2798",
+      longitude: "74.4439",
+      visitDate: "2025-02-16",
+      status: "visited",
+      description:
+        "I went to Honnavar with my friends, the place is known for its natural beauty and serene environment, making it a perfect destination for a peaceful getaway. The place is known for its backwaters, and I thoroughly enjoyed the experience.",
+      type: "domestic",
+      photoDir: "honnavar_2025",
+    },
+    {
+      name: "Nepal",
+      latitude: "27.7172",
+      longitude: "85.3240",
+      visitDate: "2025-05-29",
+      status: "visited",
+      description:
+        "Funnily enough, Nepal is my first foreign trip, I went there with my family, and had one of the best times, although there was a lot of repetition in the places that I went, there were unique experiences everyday, we also caught glimpses of the Himalayan range that hosts the highest peak in the world - Mount Everest.",
+      type: "international",
+      photoDir: "nepal_2025",
+    },
+  ],
+};
+
 export {
   settings,
   seo,
@@ -731,4 +813,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  travelData,
 };
