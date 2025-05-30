@@ -91,7 +91,7 @@ You can change the personal information, experience, education, social media, ce
 
 Another feature added is the Travel page, where you can mark places you have been and places you have planned. To do this, you need to fill the travel details in `portfolio.js`, moreover, you can add images by populating the folder in `public/photos/<location-photoDir>/`.
 
-After adding the images, you need to create an index of photos so that they are all loaded beforehand for ease of use later. To do this, simply run `npm run generate-photo-index` **after** moving all the photos locally to the folder. I am planning to add access to photos directly using Google Photos
+After adding the images, you need to create an index of photos so that they are all loaded beforehand for ease of use later. To do this, simply run `npm run generate-photo-index` **after** moving all the photos locally to the folder.
 
 ### How to change the icons on homepage under what i do section?
 
@@ -281,6 +281,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 # What's Next ?
 
-- Adding support to use photos from structured Google Drive or via Google Photo Albums.
 - Adding support for taking suggestions for places to visit.
 - Adding a page for posting / writing blogs.

@@ -795,6 +795,7 @@ const travelData = {
         "Funnily enough, Nepal is my first foreign trip, I went there with my family, and had one of the best times, although there was a lot of repetition in the places that I went, there were unique experiences everyday, we also caught glimpses of the Himalayan range that hosts the highest peak in the world - Mount Everest.",
       type: "international",
       photoDir: "nepal_2025",
+      googlePhotosUrl: "https://photos.app.goo.gl/PEi818AVsSTRdzns6",
     },
   ],
 };

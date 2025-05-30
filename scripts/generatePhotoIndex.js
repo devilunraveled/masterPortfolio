@@ -1,7 +1,15 @@
 const fs = require("fs");
 const path = require("path");
 
+// Function to ensure a directory exists
+const ensureDir = (dirPath) => {
+  if (!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath, { recursive: true });
+  }
+};
+
 const photosDir = path.join(__dirname, "../public/photos");
+ensureDir(photosDir);
 
 // Get all location directories
 const locationDirs = fs
